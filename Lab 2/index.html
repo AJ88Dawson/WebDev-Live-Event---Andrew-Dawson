@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+   <section>
+    <h1>Customer Orders Dashboard</h1>
+    <a href="index.html">Dashboard</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+    <h2>Controls</h2>
+
+    <form>
+        <label>Search Customers  <input type="text" placeholder="Type a name or country"></label>
+        <button>Show More</button>
+        <button>Reset Selection</button>
+    </form>
+
+    <p>Counter: <span id="counter"></span></p>
+
+    <p>Status: Ready</p>
+  </section> 
+  <hr>
+  <section>
+    <h2>Dashboard</h2>
+
+    <h3>Customers</h3>
+
+    <p>Select a customer to view their orders. <strong>Selected customer: none</strong></p>
+    
+    <p>Customer List</p>
+
+    <table>
+        <thead>
+            <tr>
+            <th><strong>Customer Id   </strong>  </th>
+            <th><strong>Name   </strong>  </th>
+            <th><strong>Country   </strong> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cust-1001</td>
+                <td>Aceme Trading</td>
+                <td>United Kingdom</td>
+            </tr>
+            <tr>
+                <td>Cust-1002</td>
+                <td>France Foods</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Cust-1003</td>
+                <td>Berlin Supplies</td>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+  </section>
+  
+  <section>
+<hr>
+    <h2>Orders</h2> 
+
+    <p>Orders for selected customer</p>
+    <table>
+        <thead>
+            <tr>
+              <th><strong>Order Id</strong></th>  
+              <th><strong>Date</strong></th>  
+              <th><strong>Total</strong></th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ORD-1001</td>
+                <td>2026-01-12</td>
+                <td>£123.45</td>
+            </tr>
+            <tr>
+                <td>ORD-1002</td>
+                <td>2026-01-28</td>
+                <td>£89.10</td>
+            </tr>
+        </tbody>
+    </table>
+  </section>
+  <section>
+<hr>
+    <h2>Order Details</h2>
+
+    <p>Select an order to see line items.</p>
+    <p>Line items</p>
+    <table>
+        <thead>
+            <tr>
+                <th><strong>Product</strong></th> 
+                <th><strong>Quantity</strong></th>  
+                <th><strong>Unit Price</strong></th>
+                <th><strong>Line Total</strong></th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Example Item 2</td>
+                <td>2</td>
+                <td>£10.00</td>
+                <td>£20.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Order Total: £20.00</strong></p>
+  </section>
+  <footer>
+        <p>&copy; 2026 Web Fundamentals</p>
+    </footer>
+</body>
+</html>
